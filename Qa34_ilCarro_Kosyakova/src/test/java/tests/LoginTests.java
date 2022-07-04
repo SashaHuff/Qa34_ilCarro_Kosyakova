@@ -8,18 +8,17 @@ public class LoginTests extends TestBase
     @Test
     public void successLogin() {
 
-        openLoginForm();
-        fillLogInForm("huff@gmail.com","Hhuff1234$");
-        submitLogin();
-
+        app.getHelperUser().openLoginForm();
+        app.getHelperUser().fillLogInForm("huff@gmail.com","Hhuff1234$");
+        app.getHelperUser().submitLogin();
 
     }
     // login negative
     @Test
     public void loginNegativeTestsWrongEmail() {
-        openLoginForm();
-        fillLogInForm("huffgmail.com","Hhuff1234$");
-        submitLogin();
+        app.getHelperUser().openLoginForm();
+        app.getHelperUser().fillLogInForm("huffgmail.com","Hhuff1234$");
+        app.getHelperUser().submitLogin();
 
     }
 }
