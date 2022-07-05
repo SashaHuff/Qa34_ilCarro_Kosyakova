@@ -2,11 +2,19 @@ package tests;
 
 import models.User;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase
 
 {
+    @BeforeMethod
+    public void preCondition() {
+        if(app.getHelperUser().isLogged()){
+            app.getHelperUser().logOut();
+        }
+
+    }
     @Test
             public void registrationSuccess()
     {
@@ -18,6 +26,16 @@ public class RegistrationTests extends TestBase
         app.getHelperUser().submit();
         Assert.assertEquals(app.getMessage(),"Registered");
         app.getHelperUser().clickOk();
+    }
+    @Test
+    public void registrationSuccess1()
+    {
+        int i = (int) (System.currentTimeMillis()/1000)%3600;
+        User user = new User().setName("Test"+i).setLastName("Test"+i).setEmail("tets"+i+"@gmail.com").setPassword("Ttest"+i+"$");
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().checkPolicyXY();
+        app.getHelperUser().submit();
     }
 
    /* @Test
