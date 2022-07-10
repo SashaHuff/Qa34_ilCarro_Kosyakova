@@ -24,6 +24,7 @@ public class LoginTests extends TestBase
         app.getHelperUser().clickOk();
 
 
+
     }
     @Test
     public void successLogin2() {
