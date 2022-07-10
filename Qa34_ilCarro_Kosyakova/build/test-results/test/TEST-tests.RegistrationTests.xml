@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.RegistrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-07-05T08:21:51" hostname="LAPTOP-60KTD0SH" time="4.426">
+<testsuite name="tests.RegistrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-07-10T15:56:41" hostname="LAPTOP-60KTD0SH" time="5.406">
   <properties/>
-  <testcase name="registrationSuccess" classname="tests.RegistrationTests" time="2.409"/>
-  <testcase name="registrationSuccess1" classname="tests.RegistrationTests" time="1.764"/>
+  <testcase name="registrationSuccess" classname="tests.RegistrationTests" time="3.13"/>
+  <testcase name="registrationSuccess1" classname="tests.RegistrationTests" time="1.944"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
