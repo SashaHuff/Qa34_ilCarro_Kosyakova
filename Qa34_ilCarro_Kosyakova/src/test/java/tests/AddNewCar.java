@@ -46,7 +46,8 @@ public class AddNewCar extends TestBase{
 
         app.car().openCarForm();
         app.car().fillCarForm(car);
-        app.car().attachPhoto("/Users/alexa/Documents/GitHub/Qa34_ilCarro_Kosyakova/Qa34_ilCarro_Kosyakova/auto1.jpeg");
+        app.car().attachPhoto("C:\\Users\\alexa\\Documents\\GitHub\\Qa34_ilCarro_Kosyakova\\Qa34_ilCarro_Kosyakova\\auto1.jpeg");
+
         app.car().submit();
         Assert.assertEquals(app.car().getMessage(),"Car added");
 
