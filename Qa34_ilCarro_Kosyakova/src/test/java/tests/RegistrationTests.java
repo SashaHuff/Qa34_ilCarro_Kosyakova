@@ -2,49 +2,61 @@ package tests;
 
 import models.User;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class RegistrationTests extends TestBase
-
-{
+public class RegistrationTests extends TestBase {
     @BeforeMethod
     public void preCondition() {
-        if(app.getHelperUser().isLogged()){
+        if (app.getHelperUser().isLogged2()) {
             app.getHelperUser().logOut();
         }
 
     }
+
     @Test
-            public void registrationSuccess()
-    {
-        int i = (int) (System.currentTimeMillis()/1000)%3600;
-        User user = new User().setName("Test"+i).setLastName("Test"+i).setEmail("tets"+i+"@gmail.com").setPassword("Ttest"+i+"$");
+    public void registrationSuccess() {
+        int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+        User user = new User().setName("Test" + i).setLastName("Test" + i).setEmail("tets" + i + "@gmail.com").setPassword("Ttest" + i + "$");
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submit();
-        Assert.assertEquals(app.getMessage(),"Registered");
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Registered");
+
+    }
+
+    @Test
+    public void registrationSuccess1() {
+        int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+        User user = new User().setName("Test" + i).setLastName("Test" + i).setEmail("tets" + i + "@gmail.com").setPassword("Ttest" + i + "$");
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().checkPolicyXY();
+        app.getHelperUser().submit();
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Registered");
+    }
+
+    @Test
+    public void registrationWrongPasswordFormatAndSize() {
+        User user = new User()
+                .setName("Snow")
+                .setLastName("White")
+                .setEmail("snowwhite@gmail.com")
+                .setPassword("SNow");
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().checkPolicyXY();
+       Assert.assertTrue(app.getHelperUser().isErrorPasswordSizeDisplayed());
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordFormatDisplayed());
+       Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
+    }
+
+    @AfterMethod
+    public void postCondition() {
         app.getHelperUser().clickOk();
     }
-    @Test
-    public void registrationSuccess1()
-    {
-        int i = (int) (System.currentTimeMillis()/1000)%3600;
-        User user = new User().setName("Test"+i).setLastName("Test"+i).setEmail("tets"+i+"@gmail.com").setPassword("Ttest"+i+"$");
-        app.getHelperUser().openRegistrationForm();
-        app.getHelperUser().fillRegistrationForm(user);
-        app.getHelperUser().checkPolicyXY();
-        app.getHelperUser().submit();
-    }
 
-   /* @Test
-    public void registrationSuccess()
-    {
-        app.getHelperUser().openRegistrationForm();
-        app.getHelperUser().fillRegistrationForm("Test1","Test1","test@gmail.com","Ttest123$");
-        app.getHelperUser().submitRegistration();
-    }
 
-    */
 }

@@ -32,4 +32,16 @@ public class HelperBase
         new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("button[type='submit']"))));
         wd.findElement(By.cssSelector("button[type='submit']")).click();
     }
+    public boolean isElementPresent(By locator)
+    {
+        return wd.findElements(locator).size()>0;
+    }
+    public void pause (int time)
+    {
+        try {
+            Thread.sleep(time);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
