@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.RegistrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-16T18:34:43" hostname="DESKTOP-31QDJF0" time="1.929">
-  <properties/>
-  <testcase name="registrationWrongPasswordFormatAndSize" classname="tests.RegistrationTests" time="1.929"/>
-  <system-out><![CDATA[Password must contain minimum 8 symbols
-Password must contain 1 uppercase letter, 1 lowercase letter and one number
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

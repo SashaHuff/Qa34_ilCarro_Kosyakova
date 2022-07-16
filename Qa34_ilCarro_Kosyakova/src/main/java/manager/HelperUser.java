@@ -98,16 +98,7 @@ public class HelperUser extends HelperBase {
         };
     }
 
-    public String getMessage()
-    {
-        pause(2000);
-        //wait
-        new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions
-                .visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
-        //get message
-        String message = wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
-        return message;
-    }
+
     public boolean isErrorPasswordSizeDisplayed() {
         System.out.println(wd.findElement(By.cssSelector("div.error div:first-child")).getText());
         return new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions
@@ -129,5 +120,11 @@ public class HelperUser extends HelperBase {
         return disabled&&!enabled;
     }
 
+    public void login(User user) {
+        openLoginForm();
+        fillLogInForm(user);
+        submit();
+        clickOk();
+    }
 
 }

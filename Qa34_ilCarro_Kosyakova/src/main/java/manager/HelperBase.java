@@ -32,6 +32,16 @@ public class HelperBase
         new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("button[type='submit']"))));
         wd.findElement(By.cssSelector("button[type='submit']")).click();
     }
+    public String getMessage()
+    {
+        pause(2000);
+        //wait
+        new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions
+                .visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
+        //get message
+        String message = wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
+        return message;
+    }
     public boolean isElementPresent(By locator)
     {
         return wd.findElements(locator).size()>0;
