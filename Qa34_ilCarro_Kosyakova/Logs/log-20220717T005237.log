@@ -1,0 +1,3 @@
+00:52:42.058  INFO  manager.ApplicationManager - All test run in firefox browser
+00:52:58.456  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+00:52:58.509  INFO  manager.HelperBase - Start method with name --> successLogin2

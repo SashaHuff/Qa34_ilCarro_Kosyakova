@@ -22,7 +22,9 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
+
         app.getHelperUser().submit();
+        logger.info("Registration was succssesful with data --->" + user.toString());
         Assert.assertEquals(app.getHelperUser().getMessage(), "Registered");
 
     }
@@ -45,6 +47,7 @@ public class RegistrationTests extends TestBase {
                 .setLastName("White")
                 .setEmail("snowwhite@gmail.com")
                 .setPassword("SNow");
+        logger.info("Registration was unsuccssesful with data --->" + user.toString());
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();

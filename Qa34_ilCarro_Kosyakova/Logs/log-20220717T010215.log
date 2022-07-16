@@ -1,0 +1,7 @@
+01:02:20.343  INFO  manager.ApplicationManager - All test run in firefox browser
+01:02:22.936  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+01:02:23.001  INFO  manager.HelperBase - Start method with name --> registrationSuccess
+01:02:35.241  INFO  manager.HelperBase - Registration was succssesful with data --->User{name='Test153', lastName='Test153', email='tets153@gmail.com', password='Ttest153$', phoneNumber='null'}
+01:02:37.565  INFO  manager.HelperBase - Start method with name --> registrationSuccess1
+01:02:42.173  INFO  manager.HelperBase - Start method with name --> registrationWrongPasswordFormatAndSize
+01:02:42.423  INFO  manager.HelperBase - Registration was unsuccssesful with data --->User{name='Snow', lastName='White', email='snowwhite@gmail.com', password='SNow', phoneNumber='null'}

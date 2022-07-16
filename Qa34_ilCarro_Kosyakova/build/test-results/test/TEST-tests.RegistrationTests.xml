@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-07-16T22:02:33" hostname="DESKTOP-31QDJF0" time="11.135">
+  <properties/>
+  <testcase name="registrationSuccess" classname="tests.RegistrationTests" time="4.283"/>
+  <testcase name="registrationSuccess1" classname="tests.RegistrationTests" time="4.12"/>
+  <testcase name="registrationWrongPasswordFormatAndSize" classname="tests.RegistrationTests" time="1.75"/>
+  <system-out><![CDATA[01:02:23.001  INFO  manager.HelperBase - Start method with name --> registrationSuccess
+01:02:35.241  INFO  manager.HelperBase - Registration was succssesful with data --->User{name='Test153', lastName='Test153', email='tets153@gmail.com', password='Ttest153$', phoneNumber='null'}
+01:02:37.565  INFO  manager.HelperBase - Start method with name --> registrationSuccess1
+01:02:42.173  INFO  manager.HelperBase - Start method with name --> registrationWrongPasswordFormatAndSize
+01:02:42.423  INFO  manager.HelperBase - Registration was unsuccssesful with data --->User{name='Snow', lastName='White', email='snowwhite@gmail.com', password='SNow', phoneNumber='null'}
+Password must contain minimum 8 symbols
+Password must contain 1 uppercase letter, 1 lowercase letter and one number
+]]></system-out>
+  <system-err><![CDATA[console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+]]></system-err>
+</testsuite>
