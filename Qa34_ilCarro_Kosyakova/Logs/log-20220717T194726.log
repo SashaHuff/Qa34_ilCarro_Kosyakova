@@ -1,0 +1,17 @@
+19:47:30.777  INFO  manager.ApplicationManager - All tests run in firefox browser
+19:47:32.992  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+19:47:33.041  INFO  manager.HelperBase - Start method with name --> successLogin2
+19:47:43.072  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@href='/login?url=%2Fsearch']
+19:47:43.093  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@href='/login?url=%2Fsearch']
+19:47:43.356  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@id='email']
+19:47:43.379  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@id='email']
+19:47:43.655  INFO  manager.MyListener - WebDriver start find element -->By.xpath: 
+19:47:43.667  INFO  manager.MyListener - The name of method with error is --> public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+19:47:43.672  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.InvalidSelectorException: Given xpath expression "" is invalid: SyntaxError: Document.evaluate: The expression is not a legal expression
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-60KTD0SH', ip: '192.168.67.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c3dcecd9-ea50-412c-8e2a-e84fc1c08a99, findElement {using=xpath, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:51338, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2328, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:51338/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c3dcecd9-ea50-412c-8e2a-e84fc1c08a99

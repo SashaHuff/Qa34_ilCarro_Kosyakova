@@ -1,0 +1,19 @@
+19:58:02.301  INFO  manager.ApplicationManager - All tests run in firefox browser
+19:58:04.686  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+19:58:04.730  INFO  manager.HelperBase - Start method with name --> successLogin2
+19:58:14.757  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@href='/login?url=%2Fsearch']
+19:58:14.778  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@href='/login?url=%2Fsearch']
+19:58:15.044  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@id='email']
+19:58:15.059  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@id='email']
+19:58:15.319  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@id='password']
+19:58:15.336  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@id='password']
+19:58:15.784  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+19:58:15.797  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+19:58:15.833  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+19:58:15.845  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+19:58:18.072  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+19:58:18.087  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.dialog-container
+19:58:18.106  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+19:58:18.117  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.dialog-container h1
+19:58:18.142  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+19:58:18.157  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[text()='Ok']
