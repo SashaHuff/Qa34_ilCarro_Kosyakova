@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.events.EventFiringDecorator;
+import org.openqa.selenium.support.events.WebDriverListener;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
@@ -22,7 +24,9 @@ public class ApplicationManager
     public void init()
     {
         wd = new FirefoxDriver();
-        logger.info("All test run in firefox browser");
+        WebDriverListener webDriverListener = new MyListener();
+        wd = new EventFiringDecorator(webDriverListener).decorate(wd);
+        logger.info("All tests run in firefox browser");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         wd.navigate().to("https://ilcarro-1578153671498.web.app/search");

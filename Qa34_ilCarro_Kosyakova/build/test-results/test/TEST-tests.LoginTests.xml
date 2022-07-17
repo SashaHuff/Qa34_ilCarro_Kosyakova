@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-17T15:58:40" hostname="LAPTOP-60KTD0SH" time="3.199">
+  <properties/>
+  <testcase name="successLogin" classname="tests.LoginTests" time="3.199"/>
+  <system-out><![CDATA[18:58:30.190  INFO  manager.HelperBase - Start method with name --> successLogin
+18:58:40.209  INFO  manager.HelperBase - Test start with email: 'huff@gmail.com' & 'Hhuff1234$'
+18:58:40.210  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@href='/login?url=%2Fsearch']
+18:58:40.229  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@href='/login?url=%2Fsearch']
+18:58:40.495  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@id='email']
+18:58:40.510  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@id='email']
+18:58:40.777  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@id='password']
+18:58:40.791  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@id='password']
+18:58:41.040  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:58:41.054  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+18:58:41.093  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:58:41.105  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+18:58:43.352  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+18:58:43.367  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.dialog-container
+18:58:43.384  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+18:58:43.396  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.dialog-container h1
+18:58:43.420  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+18:58:43.434  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[text()='Ok']
+]]></system-out>
+  <system-err><![CDATA[console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+]]></system-err>
+</testsuite>

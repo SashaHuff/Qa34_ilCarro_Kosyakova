@@ -21,7 +21,7 @@ public class LoginTests extends TestBase
 
     @Test
     public void successLogin() {
-
+        logger.info("Test start with email: 'huff@gmail.com' & 'Hhuff1234$'");
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLogInForm("huff@gmail.com","Hhuff1234$");
         app.getHelperUser().submit();
@@ -34,7 +34,6 @@ public class LoginTests extends TestBase
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLogInForm(user);
         app.getHelperUser().submit();
-        logger.info("Success login with data --->" + user.toString());
         Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in");
 
 
