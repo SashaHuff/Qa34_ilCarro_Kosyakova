@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.SearchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-19T07:06:13" hostname="LAPTOP-60KTD0SH" time="4.448">
-  <properties/>
-  <testcase name="searchCurrentYear" classname="tests.SearchTest" time="4.448"/>
-  <system-out><![CDATA[10:06:13.506  INFO  manager.HelperBase - Start method with name --> searchCurrentYear
+10:06:09.647  INFO  manager.ApplicationManager - All tests run in firefox browser
+10:06:13.449  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+10:06:13.506  INFO  manager.HelperBase - Start method with name --> searchCurrentYear
 10:06:13.510  INFO  manager.MyListener - WebDriver start find element -->By.id: city
 10:06:13.545  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
 10:06:14.572  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
@@ -27,12 +25,3 @@
 10:06:17.542  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
 10:06:17.614  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
 10:06:17.633  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
-]]></system-out>
-  <system-err><![CDATA[1658214375101	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
-TimedPromise@chrome://remote/content/marionette/sync.js:219:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
-]]></system-err>
-</testsuite>

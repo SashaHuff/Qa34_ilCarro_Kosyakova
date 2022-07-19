@@ -1,0 +1,19 @@
+09:28:19.561  INFO  manager.ApplicationManager - All tests run in firefox browser
+09:28:21.923  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+09:28:21.963  INFO  manager.HelperBase - Start method with name --> searchCurrentYear
+09:28:21.967  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+09:28:21.995  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+09:28:22.986  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+09:28:23.006  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+09:28:23.735  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+09:28:23.755  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+09:28:24.064  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+09:28:24.085  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+09:28:24.349  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+09:28:24.365  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+09:28:24.599  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+09:28:24.622  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+09:28:24.876  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+09:28:24.897  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 10 ']
+09:28:25.172  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+09:28:25.191  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']

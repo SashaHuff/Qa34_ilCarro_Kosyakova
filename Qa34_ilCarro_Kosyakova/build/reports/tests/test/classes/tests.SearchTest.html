@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">3.080s</div>
+<div class="counter">4.448s</div>
 <p>duration</p>
 </div>
 </td>
@@ -81,8 +81,8 @@
 </tr>
 </thead>
 <tr>
-<td class="success">searchCurrentMonth</td>
-<td class="success">3.080s</td>
+<td class="success">searchCurrentYear</td>
+<td class="success">4.448s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -90,28 +90,38 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>20:40:48.860  INFO  manager.HelperBase - Start method with name --&gt; searchCurrentMonth
-20:40:48.865  INFO  manager.MyListener - WebDriver start find element --&gt;By.id: city
-20:40:48.890  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.id: city
-20:40:49.188  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: .pac-item
-20:40:49.541  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.cssSelector: .pac-item
-20:40:50.785  INFO  manager.MyListener - WebDriver start find element --&gt;By.id: dates
-20:40:50.801  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.id: dates
-20:40:51.074  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //div[text()=' 28 ']
-20:40:51.088  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.xpath: //div[text()=' 28 ']
-20:40:51.324  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //div[text()=' 27 ']
-20:40:51.338  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.xpath: //div[text()=' 27 ']
-20:40:51.587  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: button[type='submit']
-20:40:51.602  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.cssSelector: button[type='submit']
-20:40:51.640  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: button[type='submit']
-20:40:51.654  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.cssSelector: button[type='submit']
+<pre>10:06:13.506  INFO  manager.HelperBase - Start method with name --&gt; searchCurrentYear
+10:06:13.510  INFO  manager.MyListener - WebDriver start find element --&gt;By.id: city
+10:06:13.545  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.id: city
+10:06:14.572  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: .pac-item
+10:06:14.592  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.cssSelector: .pac-item
+10:06:15.308  INFO  manager.MyListener - WebDriver start find element --&gt;By.id: dates
+10:06:15.330  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.id: dates
+10:06:15.636  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: button[aria-label='Next month'
+10:06:15.660  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.cssSelector: button[aria-label='Next month'
+10:06:15.911  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: button[aria-label='Next month'
+10:06:15.932  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.cssSelector: button[aria-label='Next month'
+10:06:16.175  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: button[aria-label='Next month'
+10:06:16.193  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.cssSelector: button[aria-label='Next month'
+10:06:16.438  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //div[text()=' 28 ']
+10:06:16.458  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.xpath: //div[text()=' 28 ']
+10:06:16.705  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: button[aria-label='Next month'
+10:06:16.723  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.cssSelector: button[aria-label='Next month'
+10:06:16.964  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: button[aria-label='Next month'
+10:06:16.984  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.cssSelector: button[aria-label='Next month'
+10:06:17.235  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //div[text()=' 10 ']
+10:06:17.253  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.xpath: //div[text()=' 10 ']
+10:06:17.522  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: button[type='submit']
+10:06:17.542  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.cssSelector: button[type='submit']
+10:06:17.614  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: button[type='submit']
+10:06:17.633  INFO  manager.MyListener - WebDriver found element by locator --&gt;By.cssSelector: button[type='submit']
 </pre>
 </span>
 </div>
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>1658079650057	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+<pre>1658214375101	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 TimedPromise/&lt;@chrome://remote/content/marionette/sync.js:234:19
 TimedPromise@chrome://remote/content/marionette/sync.js:219:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
@@ -128,7 +138,7 @@ console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous mess
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at Jul 17, 2022, 8:40:52 PM</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at Jul 19, 2022, 10:06:18 AM</p>
 </div>
 </div>
 </body>
