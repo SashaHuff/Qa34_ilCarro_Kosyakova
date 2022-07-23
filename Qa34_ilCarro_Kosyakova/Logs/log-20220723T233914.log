@@ -1,0 +1,74 @@
+23:39:19.516  INFO  manager.ApplicationManager - All tests run in firefox browser
+23:39:21.911  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+23:39:21.984  INFO  manager.HelperBase - Start method with name --> searchCurrentMonth
+23:39:21.994  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+23:39:22.040  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+23:39:23.088  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+23:39:23.124  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+23:39:23.848  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+23:39:23.877  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+23:39:24.198  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 28 ']
+23:39:24.218  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 28 ']
+23:39:24.476  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 31 ']
+23:39:24.504  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 31 ']
+23:39:24.765  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+23:39:24.799  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+23:39:24.855  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+23:39:24.871  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+23:39:26.667  INFO  manager.HelperBase - Start method with name --> searchCurrentYear
+23:39:26.675  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+23:39:26.691  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+23:39:26.948  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+23:39:26.964  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+23:39:27.961  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+23:39:27.987  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+23:39:28.708  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+23:39:28.732  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+23:39:29.020  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:39:29.040  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:39:29.298  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:39:29.320  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:39:29.575  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:39:29.591  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:39:29.853  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 28 ']
+23:39:29.874  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 28 ']
+23:39:30.123  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:39:30.145  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:39:30.394  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:39:30.410  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:39:30.658  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+23:39:30.684  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 10 ']
+23:39:30.939  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+23:39:30.963  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+23:39:31.017  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+23:39:31.037  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+23:39:32.351  INFO  manager.HelperBase - Start method with name --> searchNextMonth
+23:39:32.359  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+23:39:32.379  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+23:39:32.631  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+23:39:32.647  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+23:39:33.644  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+23:39:33.664  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+23:39:33.688  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+23:39:33.692  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementNotInteractableException: Element <div class="pac-item"> could not be scrolled into view
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f049dbf9-bde3-4d95-9cfb-abb569809d92, clickElement {id=c39eef71-439e-4e49-bb3d-c0f181c5d686}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:59328, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 14792, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:59328/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (f049dbf9-bde3-4d95-9cfb-abb569809d92)] -> css selector: .pac-item]
+Session ID: f049dbf9-bde3-4d95-9cfb-abb569809d92
+23:39:33.694  INFO  manager.HelperBase - Start method with name --> searchPeriodPast
+23:39:33.700  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+23:39:33.714  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+23:39:34.691  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+23:39:34.711  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+23:39:34.723  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+23:39:34.723  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementNotInteractableException: Element <div class="pac-item"> could not be scrolled into view
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f049dbf9-bde3-4d95-9cfb-abb569809d92, clickElement {id=c39eef71-439e-4e49-bb3d-c0f181c5d686}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:59328, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 14792, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:59328/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (f049dbf9-bde3-4d95-9cfb-abb569809d92)] -> css selector: .pac-item]
+Session ID: f049dbf9-bde3-4d95-9cfb-abb569809d92

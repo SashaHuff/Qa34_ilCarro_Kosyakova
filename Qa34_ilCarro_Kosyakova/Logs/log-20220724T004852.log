@@ -1,0 +1,74 @@
+00:48:57.013  INFO  manager.ApplicationManager - All tests run in firefox browser
+00:48:59.474  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+00:48:59.526  INFO  manager.HelperBase - Start method with name --> searchAnyPeriod
+00:48:59.530  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+00:48:59.562  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+00:49:00.566  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+00:49:00.599  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+00:49:01.347  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+00:49:01.379  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+00:49:01.708  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+00:49:01.737  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+00:49:01.987  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+00:49:02.019  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+00:49:02.278  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+00:49:02.306  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+00:49:02.560  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+00:49:02.585  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+00:49:02.827  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+00:49:02.855  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+00:49:03.113  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+00:49:03.141  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+00:49:03.403  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+00:49:03.419  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+00:49:03.672  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+00:49:03.700  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+00:49:03.971  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+00:49:03.999  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+00:49:04.253  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+00:49:04.269  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+00:49:04.532  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+00:49:04.556  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+00:49:04.827  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+00:49:04.851  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 10 ']
+00:49:05.119  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+00:49:05.151  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+00:49:05.403  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 15 ']
+00:49:05.427  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 15 ']
+00:49:05.695  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+00:49:05.715  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+00:49:05.775  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+00:49:05.791  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+00:49:06.962  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+00:49:06.979  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+00:49:07.244  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+00:49:07.260  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+00:49:07.260  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+00:49:07.276  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+00:49:07.276  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+00:49:07.288  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+00:49:07.543  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+00:49:07.559  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+00:49:07.897  INFO  manager.HelperBase - Start method with name --> searchCurrentMonth
+00:49:07.897  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+00:49:07.917  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+00:49:07.933  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+00:49:07.937  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementClickInterceptedException: Element <input id="city" class="pac-target-input ng-dirty ng-invalid ng-touched" type="text"> is not clickable at point (377,282) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c152da2b-19a8-4b10-9738-214da5d5b499, clickElement {id=c60b2710-f432-4a13-a0b3-03683087ec6f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:50996, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 6552, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:50996/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (c152da2b-19a8-4b10-9738-214da5d5b499)] -> id: city]
+Session ID: c152da2b-19a8-4b10-9738-214da5d5b499
+00:49:07.941  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+00:49:07.957  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+00:49:07.965  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+00:49:07.965  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementClickInterceptedException: Element <a id="0" class="navigation-link" href="/search"> is not clickable at point (1074,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c152da2b-19a8-4b10-9738-214da5d5b499, clickElement {id=58b125aa-fd49-4902-ac82-8c383b1037e4}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:50996, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 6552, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:50996/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (c152da2b-19a8-4b10-9738-214da5d5b499)] -> css selector: a[href='/search']]
+Session ID: c152da2b-19a8-4b10-9738-214da5d5b499

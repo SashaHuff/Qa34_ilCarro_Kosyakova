@@ -1,0 +1,34 @@
+01:13:00.254  INFO  manager.ApplicationManager - All tests run in firefox browser
+01:13:03.133  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+01:13:03.180  INFO  manager.HelperBase - Start method with name --> searchCurrentMonth
+01:13:03.196  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+01:13:03.218  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+01:13:04.231  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+01:13:04.263  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+01:13:04.995  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+01:13:05.023  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+01:13:05.352  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 28 ']
+01:13:05.368  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 28 ']
+01:13:05.621  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 31 ']
+01:13:05.649  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 31 ']
+01:13:05.916  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+01:13:05.948  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+01:13:06.012  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+01:13:06.040  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+01:13:08.178  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+01:13:08.209  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+01:13:08.472  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[@id='city']
+01:13:08.478  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[@id='city']
+01:13:08.478  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+01:13:08.494  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+01:13:08.494  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+01:13:08.525  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+01:13:08.911  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+01:13:08.911  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementClickInterceptedException: Element <input id="city" class="ng-untouched ng-pristine ng-valid pac-target-input" type="text"> is not clickable at point (377,282) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d79dd031-513b-4b4a-a36c-3432a5e00193, clickElement {id=9ed578ac-fad3-4737-8c39-391d5db02c3f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:54593, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 21860, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54593/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (d79dd031-513b-4b4a-a36c-3432a5e00193)] -> xpath: //input[@id='city']]
+Session ID: d79dd031-513b-4b4a-a36c-3432a5e00193

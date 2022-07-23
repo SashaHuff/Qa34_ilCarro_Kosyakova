@@ -1,0 +1,21 @@
+21:27:56.586  INFO  manager.ApplicationManager - All tests run in firefox browser
+21:27:58.831  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+21:27:58.895  INFO  manager.HelperBase - Start method with name --> searchNextMonth
+21:27:58.907  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+21:27:58.947  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+21:27:59.964  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+21:27:59.998  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+21:28:00.733  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+21:28:00.765  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+21:28:01.104  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+21:28:01.133  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+21:28:01.386  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 08 ']
+21:28:11.421  INFO  manager.MyListener - The name of method with error is --> public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+21:28:11.421  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=' 08 ']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f86f1d10-5fad-489f-950f-12f6a1dcf6d9, findElement {using=xpath, value=//div[text()=' 08 ']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:54524, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 6228, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54524/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f86f1d10-5fad-489f-950f-12f6a1dcf6d9

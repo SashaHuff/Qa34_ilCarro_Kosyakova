@@ -1,0 +1,17 @@
+23:24:01.368  INFO  manager.ApplicationManager - All tests run in firefox browser
+23:24:03.569  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+23:24:03.635  INFO  manager.HelperBase - Start method with name --> searchPeriodPast
+23:24:03.651  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+23:24:03.695  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+23:24:04.754  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+23:24:04.790  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+23:24:05.510  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+23:24:05.542  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+23:24:05.626  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+23:24:05.646  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+23:24:05.666  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+23:24:05.682  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+23:24:06.410  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:first-child
+23:24:06.434  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.error div:first-child
+23:24:06.454  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:first-child
+23:24:06.472  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.error div:first-child

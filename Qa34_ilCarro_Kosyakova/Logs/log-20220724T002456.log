@@ -1,0 +1,46 @@
+00:25:01.492  INFO  manager.ApplicationManager - All tests run in firefox browser
+00:25:03.615  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+00:25:03.677  INFO  manager.HelperBase - Start method with name --> searchCurrentMonth
+00:25:03.684  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+00:25:03.715  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+00:25:04.745  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+00:25:04.776  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+00:25:05.509  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+00:25:05.541  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+00:25:05.883  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 28 ']
+00:25:05.913  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 28 ']
+00:25:06.163  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 31 ']
+00:25:06.183  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 31 ']
+00:25:06.442  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+00:25:06.466  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+00:25:06.524  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+00:25:06.544  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+00:25:07.625  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+00:25:07.653  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+00:25:07.913  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+00:25:07.937  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+00:25:07.937  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+00:25:07.953  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+00:25:08.290  INFO  manager.HelperBase - Start method with name --> searchCurrentYear
+00:25:08.290  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+00:25:08.314  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+00:25:08.338  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+00:25:08.338  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementClickInterceptedException: Element <input id="city" class="ng-untouched ng-pristine ng-valid pac-target-input" type="text"> is not clickable at point (377,282) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1bc79d97-0b5b-4b6e-8064-4e2835c0197e, clickElement {id=3fcb3295-57fe-4988-8dc1-389fa9f7eeaa}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:54275, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13448, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54275/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (1bc79d97-0b5b-4b6e-8064-4e2835c0197e)] -> id: city]
+Session ID: 1bc79d97-0b5b-4b6e-8064-4e2835c0197e
+00:25:08.338  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+00:25:08.354  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+00:25:08.366  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+00:25:08.366  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementClickInterceptedException: Element <a id="0" class="navigation-link" href="/search"> is not clickable at point (1074,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1bc79d97-0b5b-4b6e-8064-4e2835c0197e, clickElement {id=ecef7afe-1e29-4461-97b0-d76470e27a76}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:54275, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13448, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54275/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (1bc79d97-0b5b-4b6e-8064-4e2835c0197e)] -> css selector: a[href='/search']]
+Session ID: 1bc79d97-0b5b-4b6e-8064-4e2835c0197e

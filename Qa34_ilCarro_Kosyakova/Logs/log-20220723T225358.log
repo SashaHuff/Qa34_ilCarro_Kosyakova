@@ -1,0 +1,13 @@
+22:54:03.886  INFO  manager.ApplicationManager - All tests run in firefox browser
+22:54:06.098  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+22:54:06.148  INFO  manager.HelperBase - Start method with name --> searchPeriodPast
+22:54:06.156  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+22:54:06.194  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+22:54:07.197  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+22:54:07.225  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+22:54:07.961  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+22:54:07.989  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+22:54:08.077  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+22:54:08.097  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+22:54:08.113  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+22:54:08.137  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']

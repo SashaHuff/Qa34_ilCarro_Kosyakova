@@ -2,6 +2,7 @@ package manager;
 
 import com.google.common.io.Files;
 import org.openqa.selenium.*;
+import org.openqa.selenium.devtools.v102.systeminfo.SystemInfo;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
@@ -69,4 +70,5 @@ public class HelperBase
             throw new RuntimeException(e);
         }
     }
+
 }

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.SearchTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-07-23T22:19:34" hostname="DESKTOP-31QDJF0" time="20.946">
+  <properties/>
+  <testcase name="searchCurrentMonth" classname="tests.SearchTest" time="3.759"/>
+  <testcase name="searchCurrentYear" classname="tests.SearchTest" time="5.243"/>
+  <testcase name="searchCurrentYearLocalDate" classname="tests.SearchTest" time="4.61"/>
+  <testcase name="searchNextMonth" classname="tests.SearchTest" time="3.95"/>
+  <testcase name="searchPeriodPast" classname="tests.SearchTest" time="2.268"/>
+  <system-out><![CDATA[01:19:34.516  INFO  manager.HelperBase - Start method with name --> searchCurrentMonth
+01:19:34.517  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+01:19:34.547  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+01:19:34.794  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+01:19:34.812  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+01:19:35.811  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+01:19:35.829  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+01:19:36.543  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+01:19:36.558  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+01:19:36.860  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 28 ']
+01:19:36.875  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 28 ']
+01:19:37.122  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 31 ']
+01:19:37.137  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 31 ']
+01:19:37.392  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+01:19:37.411  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+01:19:37.466  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+01:19:37.480  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+01:19:38.555  INFO  manager.HelperBase - Start method with name --> searchCurrentYear
+01:19:38.556  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+01:19:38.572  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+01:19:38.824  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+01:19:38.847  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+01:19:39.836  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+01:19:39.861  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+01:19:40.582  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+01:19:40.605  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+01:19:40.913  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+01:19:41.002  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+01:19:41.282  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+01:19:41.305  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+01:19:41.574  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+01:19:41.598  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+01:19:41.855  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 28 ']
+01:19:41.871  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 28 ']
+01:19:42.120  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+01:19:42.143  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+01:19:42.401  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+01:19:42.417  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+01:19:42.663  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+01:19:42.678  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 10 ']
+01:19:42.941  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+01:19:42.965  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+01:19:43.013  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+01:19:43.027  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+https://ilcarro-1578153671498.web.app/search/results?city=Jerusalem&startDate=2022-10-28%2000:00&endDate=2022-12-10%2000:00
+01:19:44.067  INFO  manager.HelperBase - Start method with name --> searchCurrentYearLocalDate
+01:19:44.067  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+01:19:44.083  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+01:19:44.341  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+01:19:44.341  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+01:19:45.357  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+01:19:45.373  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+01:19:46.127  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+01:19:46.142  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+01:19:46.443  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+01:19:46.459  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+01:19:46.713  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+01:19:46.728  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 10 ']
+01:19:46.992  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+01:19:47.014  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+01:19:47.261  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+01:19:47.277  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+01:19:47.531  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 20 ']
+01:19:47.547  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 20 ']
+01:19:47.794  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+01:19:47.801  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+01:19:47.832  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+01:19:47.857  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+01:19:48.950  INFO  manager.HelperBase - Start method with name --> searchNextMonth
+01:19:48.950  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+01:19:48.968  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+01:19:49.241  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+01:19:49.257  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+01:19:50.230  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+01:19:50.245  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+01:19:50.959  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+01:19:50.983  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+01:19:51.257  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+01:19:51.281  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+01:19:51.529  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 8 ']
+01:19:51.545  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 8 ']
+01:19:51.796  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 20 ']
+01:19:51.811  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 20 ']
+01:19:52.053  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+01:19:52.069  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+01:19:52.101  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+01:19:52.113  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+01:19:53.194  INFO  manager.HelperBase - Start method with name --> searchPeriodPast
+01:19:53.194  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+01:19:53.218  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+01:19:53.470  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+01:19:53.494  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+01:19:54.465  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+01:19:54.481  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+01:19:55.214  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+01:19:55.236  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+01:19:55.236  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+01:19:55.252  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+01:19:55.252  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+01:19:55.268  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+01:19:55.669  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [type=submit]
+01:19:55.684  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: [type=submit]
+01:19:55.700  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:first-child
+01:19:55.700  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.error div:first-child
+You can't pick date before today
+01:19:55.716  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:first-child
+01:19:55.738  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.error div:first-child
+]]></system-out>
+  <system-err><![CDATA[1658614776340	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+1658614780377	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+1658614785888	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+1658614790754	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+1658614794998	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+]]></system-err>
+</testsuite>

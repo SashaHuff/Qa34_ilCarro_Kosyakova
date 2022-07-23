@@ -1,0 +1,22 @@
+00:51:08.689  INFO  manager.ApplicationManager - All tests run in firefox browser
+00:51:11.211  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+00:51:11.269  INFO  manager.HelperBase - Start method with name --> searchAnyPeriod
+00:51:11.269  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+00:51:11.315  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+00:51:11.315  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+00:51:11.330  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+00:51:11.330  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+00:51:11.353  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+00:51:11.632  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+00:51:11.654  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+00:51:12.036  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+00:51:12.056  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+00:51:12.077  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+00:51:12.077  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementClickInterceptedException: Element <input id="city" class="ng-pristine ng-invalid pac-target-input ng-touched" type="text"> is not clickable at point (377,282) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2b2665d0-358d-4383-b9ab-d56a2cde2661, clickElement {id=fae8302a-831a-48d6-a05e-7625b05782f1}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:56762, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 19248, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:56762/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (2b2665d0-358d-4383-b9ab-d56a2cde2661)] -> id: city]
+Session ID: 2b2665d0-358d-4383-b9ab-d56a2cde2661

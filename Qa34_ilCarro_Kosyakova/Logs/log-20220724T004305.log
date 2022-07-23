@@ -1,0 +1,33 @@
+00:43:10.684  INFO  manager.ApplicationManager - All tests run in firefox browser
+00:43:13.017  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+00:43:13.082  INFO  manager.HelperBase - Start method with name --> searchAnyPeriod
+00:43:13.082  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+00:43:13.114  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+00:43:13.118  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+00:43:13.134  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+00:43:13.134  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+00:43:13.156  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+00:43:13.429  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+00:43:13.449  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+00:43:13.780  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+00:43:13.796  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+00:43:13.812  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+00:43:13.816  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementClickInterceptedException: Element <input id="city" class="ng-pristine ng-invalid pac-target-input ng-touched" type="text"> is not clickable at point (377,282) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccb6fc39-fd3b-4327-8dae-8753610c8194, clickElement {id=1372c380-39d4-41ca-96cb-235e9d667226}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:60449, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 25704, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:60449/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (ccb6fc39-fd3b-4327-8dae-8753610c8194)] -> id: city]
+Session ID: ccb6fc39-fd3b-4327-8dae-8753610c8194
+00:43:13.820  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+00:43:13.840  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+00:43:13.848  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+00:43:13.848  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementClickInterceptedException: Element <a id="0" class="navigation-link" href="/search"> is not clickable at point (1074,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccb6fc39-fd3b-4327-8dae-8753610c8194, clickElement {id=40dcfdfa-a0da-4ea9-a17f-7e7c7c9eee4d}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:60449, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 25704, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:60449/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (ccb6fc39-fd3b-4327-8dae-8753610c8194)] -> css selector: a[href='/search']]
+Session ID: ccb6fc39-fd3b-4327-8dae-8753610c8194

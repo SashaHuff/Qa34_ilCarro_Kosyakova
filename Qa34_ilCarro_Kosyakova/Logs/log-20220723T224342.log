@@ -1,0 +1,9 @@
+22:43:47.384  INFO  manager.ApplicationManager - All tests run in firefox browser
+22:43:47.549  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebDriver$Window.maximize()
+22:43:47.553  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [338908ed-2ee4-43ba-8186-ef238051758d, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:56252, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 10304, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:56252/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 338908ed-2ee4-43ba-8186-ef238051758d
