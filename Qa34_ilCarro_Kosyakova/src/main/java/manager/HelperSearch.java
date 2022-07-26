@@ -18,6 +18,7 @@ public class HelperSearch extends HelperBase {
 
     public void searchCurrentMonth(String city, String dataFrom, String dataTo) {
         typeCity(city);
+        clearData();
         selectPeriodOfCurrentMonth(dataFrom, dataTo);
     }
 
@@ -46,6 +47,7 @@ public class HelperSearch extends HelperBase {
 
     public void searchCurrentYear(String city, String dataFrom, String dataTo) {
         typeCity(city);
+        clearData();
         selectPeriodCurrentYear(dataFrom, dataTo);
 
     }
@@ -118,6 +120,12 @@ public class HelperSearch extends HelperBase {
         // we can use String.contains
         return currentURL.startsWith("https://ilcarro-1578153671498.web.app/search/results");
     }
+    public boolean isPageisSearch()
+    {
+        String currentURL = wd.getCurrentUrl();
+        System.out.println(currentURL);
+        return currentURL.equals("https://ilcarro-1578153671498.web.app/search");
+    }
 
     public void returnToSearch() {
         click(By.cssSelector("a[href='/search']"));
@@ -136,12 +144,14 @@ public class HelperSearch extends HelperBase {
     }
     public void searchNextMonth(String city, String dataFrom, String dataTo) {
         typeCity(city);
+        clearData();
         selectPeriodInNextMonth(dataFrom, dataTo);
 
     }
 
     public void searchCurrentYearLocalDate(String city,String dataFrom, String dataTo) {
         typeCity(city);
+        clearData();
         LocalDate now = LocalDate.now();
         LocalDate from = LocalDate.parse(dataFrom,DateTimeFormatter.ofPattern("M/d/yyyy"));
         LocalDate to = LocalDate.parse(dataTo,DateTimeFormatter.ofPattern("M/d/yyyy"));
@@ -161,6 +171,7 @@ public class HelperSearch extends HelperBase {
     }
     public void searchAnyPeriodLocalDate2(String city, String dataFrom, String dataTo) {
         typeCity(city);
+        clearData();
         LocalDate now = LocalDate.now();
         LocalDate from= LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
         LocalDate to = LocalDate.parse(dataTo,DateTimeFormatter.ofPattern("M/d/yyyy"));
@@ -184,6 +195,7 @@ public class HelperSearch extends HelperBase {
 
     public void searchAnyPeriodLocalDate(String city, String dataFrom, String dataTo) {
         typeCity(city);
+        clearData();
         LocalDate now = LocalDate.now();
         LocalDate from= LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
         LocalDate to = LocalDate.parse(dataTo,DateTimeFormatter.ofPattern("M/d/yyyy"));
@@ -218,7 +230,10 @@ public class HelperSearch extends HelperBase {
     }
     public void searchPeriodInPast(String city, String dataFrom, String dataTo) {
         typeCity(city);
-        selectPeriodInPast(dataFrom,dataTo);
+        clearData();
+        type(By.id("dates"),dataFrom+ " - "+dataTo);
+        click(By.cssSelector(".cdk-overlay-container"));
+
 
     }
     public String checkSystem(){
@@ -231,33 +246,17 @@ public class HelperSearch extends HelperBase {
         checkSystem();
         if (checkSystem().contains("Win"))
         {
-            click(By.id("dates"));
-            elData.sendKeys(Keys.chord(Keys.CONTROL,"a"));
-            elData.sendKeys(Keys.DELETE);
+
+            elData.sendKeys(Keys.CONTROL,"a");
         }
-        if (checkSystem().contains("Mac"))
+        else
         {
+            elData.sendKeys(Keys.COMMAND,"a");
 
-            click(By.id("dates"));
-            elData.sendKeys(Keys.chord(Keys.COMMAND,"a"));
-            elData.sendKeys(Keys.DELETE);
         }
-    }
-    public void selectPeriodInPast(String dataFrom, String dataTo) {
-
-        WebElement el = wd.findElement(By.id("dates"));
-        clearData();
-        el.sendKeys(dataFrom);
-        el.sendKeys("-");
-        el.sendKeys(dataTo);
-
+        elData.sendKeys(Keys.DELETE);
     }
 
-    public boolean buttonIsDisabled() {
-        boolean disabled = isElementPresent(By.cssSelector("button[disabled]"));
-        boolean enabled = wd.findElement(By.cssSelector("[type=submit]")).isEnabled();
-        return disabled&&!enabled;
-    }
     //
     public boolean isDataErrorDisplayed() {
         System.out.println(wd.findElement(By.cssSelector("div.error div:first-child")).getText());
@@ -265,5 +264,6 @@ public class HelperSearch extends HelperBase {
                 .textToBePresentInElement(wd.findElement(By.cssSelector("div.error div:first-child"))
                         , "You can't pick date before today"));
     }
+
 
 }

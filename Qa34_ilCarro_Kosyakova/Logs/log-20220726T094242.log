@@ -1,0 +1,99 @@
+09:42:47.701  INFO  manager.ApplicationManager - All tests run in firefox browser
+09:42:50.643  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+09:42:50.704  INFO  manager.HelperBase - Start method with name --> addNewCarSuccess
+09:43:00.753  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@href='/login?url=%2Fsearch']
+09:43:00.793  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@href='/login?url=%2Fsearch']
+09:43:01.530  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@id='email']
+09:43:01.561  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@id='email']
+09:43:02.153  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@id='password']
+09:43:02.180  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@id='password']
+09:43:03.307  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+09:43:03.326  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+09:43:03.371  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+09:43:03.386  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+09:43:04.141  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+09:43:04.160  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[text()='Ok']
+09:43:05.689  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+09:43:05.715  INFO  manager.MyListener - WebDriver found element by locator -->By.id: 1
+09:43:06.452  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+09:43:06.474  INFO  manager.MyListener - WebDriver found element by locator -->By.id: pickUpPlace
+09:43:07.094  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+09:43:08.423  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.pac-item
+09:43:09.662  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+09:43:09.688  INFO  manager.MyListener - WebDriver found element by locator -->By.id: make
+09:43:10.433  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+09:43:10.455  INFO  manager.MyListener - WebDriver found element by locator -->By.id: model
+09:43:10.938  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+09:43:10.953  INFO  manager.MyListener - WebDriver found element by locator -->By.id: year
+09:43:11.708  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+09:43:11.727  INFO  manager.MyListener - WebDriver found element by locator -->By.id: engine
+09:43:12.214  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+09:43:12.232  INFO  manager.MyListener - WebDriver found element by locator -->By.id: fuel
+09:43:12.491  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+09:43:12.514  INFO  manager.MyListener - WebDriver found element by locator -->By.id: gear
+09:43:12.769  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+09:43:12.791  INFO  manager.MyListener - WebDriver found element by locator -->By.id: wheelsDrive
+09:43:13.048  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+09:43:13.068  INFO  manager.MyListener - WebDriver found element by locator -->By.id: doors
+09:43:13.811  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+09:43:13.829  INFO  manager.MyListener - WebDriver found element by locator -->By.id: seats
+09:43:14.320  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+09:43:14.340  INFO  manager.MyListener - WebDriver found element by locator -->By.id: class
+09:43:15.078  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+09:43:15.093  INFO  manager.MyListener - WebDriver found element by locator -->By.id: fuelConsumption
+09:43:15.611  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+09:43:15.631  INFO  manager.MyListener - WebDriver found element by locator -->By.id: serialNumber
+09:43:16.405  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+09:43:16.419  INFO  manager.MyListener - WebDriver found element by locator -->By.id: price
+09:43:16.900  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+09:43:16.916  INFO  manager.MyListener - WebDriver found element by locator -->By.id: distance
+09:43:17.666  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+09:43:17.685  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: input[placeholder='Type feature']
+09:43:18.164  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+09:43:18.185  INFO  manager.MyListener - WebDriver found element by locator -->By.id: about
+09:43:18.955  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+09:43:18.968  INFO  manager.MyListener - WebDriver found element by locator -->By.id: photos
+09:43:19.500  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+09:43:19.521  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+09:43:20.655  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+09:43:20.669  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+09:43:23.393  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+09:43:23.415  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.dialog-container
+09:43:28.827  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+09:43:28.849  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[text()='Search cars']
+09:43:29.574  INFO  manager.HelperBase - Start method with name --> successLogin
+09:43:29.596  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+09:43:29.608  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //a[text()=' Logout ']
+09:43:29.623  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+09:43:29.624  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementNotInteractableException: Element <a class="navigation-link ng-star-inserted" href="/logout?url=%2Flet-car-work"> could not be scrolled into view
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.165.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b00c493d-a9c1-44f3-8872-e77887de20df, clickElement {id=70974b89-6de8-4217-8117-512226dad1b1}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:56642, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 9248, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:56642/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (b00c493d-a9c1-44f3-8872-e77887de20df)] -> xpath: //a[text()=' Logout ']]
+Session ID: b00c493d-a9c1-44f3-8872-e77887de20df
+09:43:29.632  INFO  manager.HelperBase - Start method with name --> registrationSuccess
+09:43:29.664  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+09:43:29.675  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //a[text()=' Logout ']
+09:43:29.683  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+09:43:29.683  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementNotInteractableException: Element <a class="navigation-link ng-star-inserted" href="/logout?url=%2Flet-car-work"> could not be scrolled into view
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.165.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b00c493d-a9c1-44f3-8872-e77887de20df, clickElement {id=70974b89-6de8-4217-8117-512226dad1b1}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:56642, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 9248, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:56642/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (b00c493d-a9c1-44f3-8872-e77887de20df)] -> xpath: //a[text()=' Logout ']]
+Session ID: b00c493d-a9c1-44f3-8872-e77887de20df
+09:43:29.689  INFO  manager.HelperBase - Start method with name --> searchAnyPeriod
+09:43:29.691  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+09:43:29.707  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+09:43:29.717  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+09:43:29.717  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementNotInteractableException: Element <a id="0" class="navigation-link" href="/search"> could not be scrolled into view
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.165.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b00c493d-a9c1-44f3-8872-e77887de20df, clickElement {id=3bb9c2a4-d8e3-4e0c-a39c-cebb57aec043}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:56642, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 9248, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:56642/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (b00c493d-a9c1-44f3-8872-e77887de20df)] -> css selector: a[href='/search']]
+Session ID: b00c493d-a9c1-44f3-8872-e77887de20df

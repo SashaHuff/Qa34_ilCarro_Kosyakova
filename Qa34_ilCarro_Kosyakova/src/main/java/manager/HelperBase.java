@@ -70,5 +70,15 @@ public class HelperBase
             throw new RuntimeException(e);
         }
     }
+    public boolean isYallaButtonNotActive() {
+        boolean disabled = isElementPresent(By.cssSelector("button[disabled]"));
+        boolean enabled = wd.findElement(By.cssSelector("[type=submit]")).isEnabled();
+        return disabled&&!enabled;
+    }
+    public void submitWithoutWait() {
+        wd.findElement(By.cssSelector("button[type='submit']")).click();
+    }
+
+
 
 }

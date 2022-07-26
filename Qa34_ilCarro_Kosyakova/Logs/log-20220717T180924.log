@@ -1,7 +1,0 @@
-18:09:28.503  INFO  manager.ApplicationManager - All tests run in firefox browser
-18:09:31.115  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
-18:09:31.164  INFO  manager.HelperBase - Start method with name --> successLogin
-18:09:41.195  INFO  manager.HelperBase - Test start with email: 'huff@gmail.com' & 'Hhuff1234$'
-18:09:44.610  INFO  manager.HelperBase - Start method with name --> successLogin2
-18:09:44.888  INFO  manager.HelperBase - Test start with logOut
-18:09:45.890  INFO  manager.HelperBase - Success login with data --->User{name='null', lastName='null', email='huff1@gmail.com', password='Hhuff11234$', phoneNumber='null'}

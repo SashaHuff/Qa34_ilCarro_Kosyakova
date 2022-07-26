@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.AddNewCar" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-26T06:54:23" hostname="DESKTOP-31QDJF0" time="11.982">
+  <properties/>
+  <testcase name="addNewCarSuccess" classname="tests.AddNewCar" time="11.982"/>
+  <system-out><![CDATA[09:54:11.586  INFO  manager.HelperBase - Start method with name --> addNewCarSuccess
+09:54:21.626  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@href='/login?url=%2Fsearch']
+09:54:21.656  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@href='/login?url=%2Fsearch']
+09:54:21.950  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@id='email']
+09:54:21.979  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@id='email']
+09:54:22.272  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@id='password']
+09:54:22.302  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@id='password']
+09:54:22.921  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+09:54:22.939  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+09:54:22.999  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+09:54:23.023  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+09:54:23.622  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+09:54:23.641  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[text()='Ok']
+09:54:24.883  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+09:54:24.911  INFO  manager.MyListener - WebDriver found element by locator -->By.id: 1
+09:54:25.211  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+09:54:25.238  INFO  manager.MyListener - WebDriver found element by locator -->By.id: pickUpPlace
+09:54:25.556  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+09:54:26.068  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.pac-item
+09:54:27.304  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+09:54:27.329  INFO  manager.MyListener - WebDriver found element by locator -->By.id: make
+09:54:27.590  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+09:54:27.613  INFO  manager.MyListener - WebDriver found element by locator -->By.id: model
+09:54:27.860  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+09:54:27.881  INFO  manager.MyListener - WebDriver found element by locator -->By.id: year
+09:54:28.153  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+09:54:28.178  INFO  manager.MyListener - WebDriver found element by locator -->By.id: engine
+09:54:28.444  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+09:54:28.464  INFO  manager.MyListener - WebDriver found element by locator -->By.id: fuel
+09:54:28.738  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+09:54:28.762  INFO  manager.MyListener - WebDriver found element by locator -->By.id: gear
+09:54:29.037  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+09:54:29.058  INFO  manager.MyListener - WebDriver found element by locator -->By.id: wheelsDrive
+09:54:29.320  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+09:54:29.339  INFO  manager.MyListener - WebDriver found element by locator -->By.id: doors
+09:54:29.590  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+09:54:29.609  INFO  manager.MyListener - WebDriver found element by locator -->By.id: seats
+09:54:29.867  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+09:54:29.889  INFO  manager.MyListener - WebDriver found element by locator -->By.id: class
+09:54:30.149  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+09:54:30.169  INFO  manager.MyListener - WebDriver found element by locator -->By.id: fuelConsumption
+09:54:30.424  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+09:54:30.446  INFO  manager.MyListener - WebDriver found element by locator -->By.id: serialNumber
+09:54:30.714  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+09:54:30.733  INFO  manager.MyListener - WebDriver found element by locator -->By.id: price
+09:54:30.979  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+09:54:30.995  INFO  manager.MyListener - WebDriver found element by locator -->By.id: distance
+09:54:31.244  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+09:54:31.265  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: input[placeholder='Type feature']
+09:54:31.526  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+09:54:31.547  INFO  manager.MyListener - WebDriver found element by locator -->By.id: about
+09:54:31.812  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+09:54:31.824  INFO  manager.MyListener - WebDriver found element by locator -->By.id: photos
+09:54:32.354  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+09:54:32.372  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+09:54:33.491  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+09:54:33.511  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+09:54:35.764  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+09:54:35.786  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.dialog-container
+09:54:35.815  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+09:54:35.832  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.dialog-container h1
+09:54:35.851  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+09:54:35.864  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[text()='Search cars']
+]]></system-out>
+  <system-err><![CDATA[console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1658818466593	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+]]></system-err>
+</testsuite>

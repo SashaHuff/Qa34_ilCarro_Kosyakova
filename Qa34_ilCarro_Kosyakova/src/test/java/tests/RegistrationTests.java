@@ -53,7 +53,7 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().checkPolicyXY();
        Assert.assertTrue(app.getHelperUser().isErrorPasswordSizeDisplayed());
         Assert.assertTrue(app.getHelperUser().isErrorPasswordFormatDisplayed());
-       Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
+       Assert.assertTrue(app.search().isYallaButtonNotActive());
     }
 
     @AfterMethod
