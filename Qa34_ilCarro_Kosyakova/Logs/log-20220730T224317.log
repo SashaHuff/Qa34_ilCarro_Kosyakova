@@ -1,0 +1,56 @@
+22:43:23.089  INFO  manager.ApplicationManager - All tests run in firefox browser
+22:43:27.732  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+22:43:27.790  INFO  manager.HelperBase - Start method with name --> registrationSuccess
+22:43:37.836  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@href='/registration?url=%2Fsearch']
+22:43:37.878  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@href='/registration?url=%2Fsearch']
+22:43:38.175  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+22:43:38.205  INFO  manager.MyListener - WebDriver found element by locator -->By.id: name
+22:43:38.504  INFO  manager.MyListener - WebDriver start find element -->By.id: lastName
+22:43:38.532  INFO  manager.MyListener - WebDriver found element by locator -->By.id: lastName
+22:43:38.789  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+22:43:38.813  INFO  manager.MyListener - WebDriver found element by locator -->By.id: email
+22:43:39.089  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+22:43:39.107  INFO  manager.MyListener - WebDriver found element by locator -->By.id: password
+22:43:39.366  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: label[for='terms-of-use']
+22:43:39.388  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: label[for='terms-of-use']
+22:43:39.796  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+22:43:39.826  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+22:43:39.883  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+22:43:39.901  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+22:43:40.160  INFO  manager.HelperBase - Registration was succssesful with data --->User{name='Test2617', lastName='Test2617', email='tets2617@gmail.com', password='Ttest2617$', phoneNumber='null'}
+22:43:42.166  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+22:43:42.193  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.dialog-container
+22:43:42.230  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+22:43:42.255  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.dialog-container h1
+22:43:42.293  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+22:43:42.306  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[text()='Ok']
+22:43:42.521  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+22:43:42.537  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+22:43:42.763  INFO  manager.HelperBase - Start method with name --> registrationWrongPasswordFormatAndSize
+22:43:42.788  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+22:43:42.809  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //a[text()=' Logout ']
+22:43:43.061  INFO  manager.HelperBase - Registration was unsuccssesful with data --->User{name='Snow', lastName='White', email='snowwhite@gmail.com', password='SNow', phoneNumber='null'}
+22:43:43.062  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@href='/registration?url=%2Fsearch']
+22:43:43.085  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@href='/registration?url=%2Fsearch']
+22:43:43.333  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+22:43:43.354  INFO  manager.MyListener - WebDriver found element by locator -->By.id: name
+22:43:43.600  INFO  manager.MyListener - WebDriver start find element -->By.id: lastName
+22:43:43.624  INFO  manager.MyListener - WebDriver found element by locator -->By.id: lastName
+22:43:43.882  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+22:43:43.906  INFO  manager.MyListener - WebDriver found element by locator -->By.id: email
+22:43:44.189  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+22:43:44.212  INFO  manager.MyListener - WebDriver found element by locator -->By.id: password
+22:43:44.459  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: label[for='terms-of-use']
+22:43:44.476  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: label[for='terms-of-use']
+22:43:44.835  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:first-child
+22:43:44.853  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.error div:first-child
+22:43:44.862  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:first-child
+22:43:44.874  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.error div:first-child
+22:43:44.882  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:last-child
+22:43:44.893  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.error div:last-child
+22:43:44.900  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:last-child
+22:43:44.914  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.error div:last-child
+22:43:44.935  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [type=submit]
+22:43:44.946  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: [type=submit]
+22:43:54.961  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+22:43:54.984  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']

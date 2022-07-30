@@ -1,0 +1,74 @@
+22:20:38.189  INFO  manager.ApplicationManager - All tests run in firefox browser
+22:20:46.145  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+22:20:46.204  INFO  manager.HelperBase - Start method with name --> addNewCarSuccess
+22:20:56.250  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@href='/login?url=%2Fsearch']
+22:20:56.288  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@href='/login?url=%2Fsearch']
+22:20:56.573  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@id='email']
+22:20:56.611  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@id='email']
+22:20:56.921  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@id='password']
+22:20:56.943  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@id='password']
+22:20:57.549  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+22:20:57.567  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+22:20:57.621  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+22:20:57.637  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+22:20:59.247  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+22:20:59.268  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[text()='Ok']
+22:21:00.507  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+22:21:00.533  INFO  manager.MyListener - WebDriver found element by locator -->By.id: 1
+22:21:00.840  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+22:21:00.868  INFO  manager.MyListener - WebDriver found element by locator -->By.id: pickUpPlace
+22:21:01.183  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+22:21:01.525  INFO  manager.MyListener - The name of method with error is --> public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+22:21:01.528  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.WebDriverException: TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [70250941-8720-47b8-a72d-0ba4716c2031, findElement {using=css selector, value=div.pac-item}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:61763, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25848, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61763/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 70250941-8720-47b8-a72d-0ba4716c2031
+22:21:01.532  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+22:21:01.544  INFO  manager.MyListener - The name of method with error is --> public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+22:21:01.544  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [70250941-8720-47b8-a72d-0ba4716c2031, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:61763, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25848, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61763/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 70250941-8720-47b8-a72d-0ba4716c2031
+22:21:01.555  INFO  manager.HelperBase - Start method with name --> successLogin
+22:21:01.560  INFO  manager.MyListener - The name of method with error is --> public abstract java.util.List org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)
+22:21:01.561  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [70250941-8720-47b8-a72d-0ba4716c2031, findElements {using=xpath, value=//a[text()=' Logout ']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:61763, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25848, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61763/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 70250941-8720-47b8-a72d-0ba4716c2031
+22:21:01.598  INFO  manager.HelperBase - Start method with name --> registrationSuccess
+22:21:01.602  INFO  manager.MyListener - The name of method with error is --> public abstract java.util.List org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)
+22:21:01.603  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [70250941-8720-47b8-a72d-0ba4716c2031, findElements {using=xpath, value=//a[text()=' Logout ']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:61763, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25848, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61763/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 70250941-8720-47b8-a72d-0ba4716c2031
+22:21:01.607  INFO  manager.HelperBase - Start method with name --> searchAnyPeriod
+22:21:01.608  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+22:21:01.611  INFO  manager.MyListener - The name of method with error is --> public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+22:21:01.612  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [70250941-8720-47b8-a72d-0ba4716c2031, findElement {using=id, value=city}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:61763, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25848, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61763/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 70250941-8720-47b8-a72d-0ba4716c2031
+22:21:01.613  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+22:21:01.617  INFO  manager.MyListener - The name of method with error is --> public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+22:21:01.618  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [70250941-8720-47b8-a72d-0ba4716c2031, findElement {using=css selector, value=a[href='/search']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:61763, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25848, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61763/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 70250941-8720-47b8-a72d-0ba4716c2031

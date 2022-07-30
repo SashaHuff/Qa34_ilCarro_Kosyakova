@@ -58,7 +58,7 @@ public class SearchTest extends TestBase{
    }
 
 
-    @Test
+    @Test (groups = {"web"})
     public void searchAnyPeriod(){
         app.search().searchAnyPeriodLocalDate2("Haifa", "6/10/2023", "7/15/2023");
         app.search().submit();
@@ -68,7 +68,7 @@ public class SearchTest extends TestBase{
 
     }
 
-    @AfterMethod
+    @AfterMethod (alwaysRun = true)
     public void returnToSearch()
     {
                 app.search().returnToSearch();

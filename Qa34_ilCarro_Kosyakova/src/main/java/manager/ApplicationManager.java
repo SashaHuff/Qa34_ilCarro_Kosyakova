@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.Browser;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.openqa.selenium.support.events.WebDriverListener;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -19,12 +20,22 @@ public class ApplicationManager
     HelperUser helperUser;
     HelperCar car;
     HelperSearch search;
+    String browser;
+
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
 
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
 
     public void init()
     {
+        if (browser.equals(Browser.CHROME.browserName())){
+            wd = new ChromeDriver();
+        }
+        else if (browser.equals(Browser.FIREFOX.browserName())){
         wd = new FirefoxDriver();
+        }
         WebDriverListener webDriverListener = new MyListener();
         wd = new EventFiringDecorator(webDriverListener).decorate(wd);
         logger.info("All tests run in firefox browser");

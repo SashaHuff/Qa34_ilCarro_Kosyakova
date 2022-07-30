@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.Browser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterMethod;
@@ -21,19 +22,19 @@ import java.time.Duration;
 public class TestBase
 {
     Logger logger = LoggerFactory.getLogger(HelperBase.class);
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void startLogger(Method m){
         logger.info("Start method with name --> " + m.getName());
     }
-    protected static ApplicationManager app = new ApplicationManager();
+    protected static ApplicationManager app = new ApplicationManager(System.getProperty("browser", Browser.FIREFOX.browserName()));
 
-    @BeforeSuite
+    @BeforeSuite (alwaysRun = true)
     public void setUp()
     {
         app.init();
     }
 
-    @AfterSuite
+    @AfterSuite (alwaysRun = true)
     public void tearDown()
     {
         app.stop();

@@ -18,7 +18,7 @@ import java.util.List;
 
 public class LoginTests extends TestBase
 {
-     @BeforeMethod
+     @BeforeMethod (alwaysRun = true)
      public void preCondition() {
          if(app.getHelperUser().isLogged2()){
              app.getHelperUser().logOut();
@@ -37,7 +37,7 @@ public class LoginTests extends TestBase
         Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in");
 
     }
-    @Test
+    @Test(groups = {"web"})
     public void successLogin2() {
         User user = new User().setEmail("huff1@gmail.com").setPassword("Hhuff11234$");
         app.getHelperUser().openLoginForm();
@@ -52,7 +52,7 @@ public class LoginTests extends TestBase
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in");
     }
-    @AfterMethod
+    @AfterMethod (alwaysRun = true)
     public void postCondition()
     {
         app.getHelperUser().clickOk();

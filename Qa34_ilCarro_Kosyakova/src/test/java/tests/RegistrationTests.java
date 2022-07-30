@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase {
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void preCondition() {
         if (app.getHelperUser().isLogged2()) {
             app.getHelperUser().logOut();
@@ -16,7 +16,7 @@ public class RegistrationTests extends TestBase {
 
     }
 
-    @Test
+    @Test (groups = {"web"})
     public void registrationSuccess() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         User user = new User().setName("Test" + i).setLastName("Test" + i).setEmail("tets" + i + "@gmail.com").setPassword("Ttest" + i + "$");
@@ -30,7 +30,7 @@ public class RegistrationTests extends TestBase {
 
     }
 
-    @Test(dataProvider = "dataReg", dataProviderClass = MyDataProviderRegistration.class)
+    @Test(dataProvider = "dataReg", dataProviderClass = MyDataProviderRegistration.class, enabled = false)
     public void registrationSuccess1(User user) {
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
@@ -38,6 +38,8 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getMessage(), "Registered");
     }
+
+
 
 
 
@@ -57,7 +59,7 @@ public class RegistrationTests extends TestBase {
        Assert.assertTrue(app.search().isYallaButtonNotActive());
     }
 
-    @AfterMethod
+    @AfterMethod (alwaysRun = true)
     public void postCondition() {
         app.getHelperUser().clickOk();
         app.search().returnToSearch();

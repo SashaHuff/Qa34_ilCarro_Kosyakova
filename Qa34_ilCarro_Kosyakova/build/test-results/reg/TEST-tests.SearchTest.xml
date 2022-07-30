@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.SearchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-30T20:03:40" hostname="DESKTOP-31QDJF0" time="8.935">
+  <properties/>
+  <testcase name="searchAnyPeriod" classname="tests.SearchTest" time="8.935"/>
+  <system-out><![CDATA[23:03:40.196  INFO  manager.HelperBase - Start method with name --> searchAnyPeriod
+23:03:40.198  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+23:03:40.210  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+23:03:41.149  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+23:03:42.227  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+23:03:42.941  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+23:03:42.959  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+23:03:43.004  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+23:03:43.018  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+23:03:43.309  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:03:43.327  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:03:43.594  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:03:43.609  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:03:43.866  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:03:43.885  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:03:44.146  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:03:44.160  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:03:44.416  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:03:44.430  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:03:44.672  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:03:44.691  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:03:44.947  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:03:44.966  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:03:45.219  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:03:45.233  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:03:45.475  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:03:45.494  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:03:45.752  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:03:45.770  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:03:46.016  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:03:46.038  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:03:46.293  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+23:03:46.307  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 10 ']
+23:03:46.556  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[aria-label='Next month'
+23:03:46.575  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[aria-label='Next month'
+23:03:46.835  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 15 ']
+23:03:46.853  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 15 ']
+23:03:47.108  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+23:03:47.120  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+23:03:47.148  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+23:03:47.159  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+23:03:49.133  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+23:03:49.144  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+]]></system-out>
+  <system-err><![CDATA[1659211422738	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:237:24
+TimedPromise@chrome://remote/content/marionette/sync.js:222:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ilcarro-1578153671498.web.app"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+]]></system-err>
+</testsuite>

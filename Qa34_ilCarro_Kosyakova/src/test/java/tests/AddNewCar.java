@@ -13,14 +13,14 @@ import java.util.Random;
 
 public class AddNewCar extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void preCondition(){
         if(!app.getHelperUser().isLogged()){
             app.getHelperUser().login(new User().setEmail("huff1@gmail.com").setPassword("Hhuff11234$"));
         }
     }
 
-    @Test
+    @Test (groups = {"web","smoke","regres"})
     public void addNewCarSuccess(){
         Random random = new Random();
         int i =random.nextInt(1000)+1000;
@@ -52,7 +52,7 @@ public class AddNewCar extends TestBase{
 
     }
 
-    @Test (dataProvider = "carCSV", dataProviderClass = MyDataProviderCarFromCSV.class)
+    @Test (dataProvider = "carCSV", dataProviderClass = MyDataProviderCarFromCSV.class,enabled = false)
     public void addNewCarSuccessFromCSV(Car car){
         app.car().openCarForm();
         app.car().fillCarForm(car);
@@ -62,7 +62,7 @@ public class AddNewCar extends TestBase{
 
     }
 
-    @AfterMethod
+    @AfterMethod (alwaysRun = true)
     public void postCondition(){
         app.car().returnToHome();
     }
