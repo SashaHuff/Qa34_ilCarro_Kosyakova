@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProviderRegistration;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -29,16 +30,16 @@ public class RegistrationTests extends TestBase {
 
     }
 
-    @Test
-    public void registrationSuccess1() {
-        int i = (int) (System.currentTimeMillis() / 1000) % 3600;
-        User user = new User().setName("Test" + i).setLastName("Test" + i).setEmail("tets" + i + "@gmail.com").setPassword("Ttest" + i + "$");
+    @Test(dataProvider = "dataReg", dataProviderClass = MyDataProviderRegistration.class)
+    public void registrationSuccess1(User user) {
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getMessage(), "Registered");
     }
+
+
 
     @Test
     public void registrationWrongPasswordFormatAndSize() {
@@ -59,6 +60,7 @@ public class RegistrationTests extends TestBase {
     @AfterMethod
     public void postCondition() {
         app.getHelperUser().clickOk();
+        app.search().returnToSearch();
     }
 
 

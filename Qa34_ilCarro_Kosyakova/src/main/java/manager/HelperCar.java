@@ -50,13 +50,13 @@ public class HelperCar extends HelperBase{
     private void typeAddress(String address) {
         type(By.id("pickUpPlace"),address);
         click(By.cssSelector("div.pac-item"));
-        pause(500);
+        pause(1000);
         // click on first address
     }
 
     public void attachPhoto(String link) {
         wd.findElement(By.id("photos")).sendKeys(link);
-        pause(500);
+        pause(1000);
     }
 
     public void returnToHome() {

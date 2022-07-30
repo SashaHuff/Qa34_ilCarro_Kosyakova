@@ -13,7 +13,7 @@ public class SearchTest extends TestBase{
     @Test
     public void searchCurrentMonth()
     {
-        app.search().searchCurrentMonth("Tel Aviv","7/28/2022","7/31/2022");
+        app.search().searchCurrentMonth("Tel Aviv","7/30/2022","7/31/2022");
         app.search().submit();
         Assert.assertTrue(app.search().isListOfCarsAppeared());
         app.search().takeScreenshots("C:\\Users\\alexa\\Documents\\GitHub\\Qa34_ilCarro_Kosyakova\\Qa34_ilCarro_Kosyakova\\src\\test\\screenshots/screenCurrentMonth.png");

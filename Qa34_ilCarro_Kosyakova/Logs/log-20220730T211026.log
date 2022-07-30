@@ -1,0 +1,170 @@
+21:10:31.992  INFO  manager.ApplicationManager - All tests run in firefox browser
+21:10:42.316  INFO  manager.ApplicationManager - current url ---->https://ilcarro-1578153671498.web.app/search
+21:10:42.377  INFO  manager.HelperBase - Start method with name --> addNewCarSuccess
+21:10:52.410  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@href='/login?url=%2Fsearch']
+21:10:52.449  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@href='/login?url=%2Fsearch']
+21:10:52.754  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@id='email']
+21:10:52.790  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@id='email']
+21:10:53.091  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //*[@id='password']
+21:10:53.119  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[@id='password']
+21:10:53.729  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+21:10:53.747  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+21:10:53.789  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+21:10:53.809  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+21:10:54.548  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+21:10:54.574  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[text()='Ok']
+21:10:55.818  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+21:10:55.839  INFO  manager.MyListener - WebDriver found element by locator -->By.id: 1
+21:10:56.126  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+21:10:56.151  INFO  manager.MyListener - WebDriver found element by locator -->By.id: pickUpPlace
+21:10:56.495  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+21:10:56.954  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.pac-item
+21:10:58.693  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+21:10:58.718  INFO  manager.MyListener - WebDriver found element by locator -->By.id: make
+21:10:58.968  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+21:10:58.991  INFO  manager.MyListener - WebDriver found element by locator -->By.id: model
+21:10:59.242  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+21:10:59.261  INFO  manager.MyListener - WebDriver found element by locator -->By.id: year
+21:10:59.518  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+21:10:59.543  INFO  manager.MyListener - WebDriver found element by locator -->By.id: engine
+21:10:59.796  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+21:10:59.814  INFO  manager.MyListener - WebDriver found element by locator -->By.id: fuel
+21:11:00.068  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+21:11:00.093  INFO  manager.MyListener - WebDriver found element by locator -->By.id: gear
+21:11:00.350  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+21:11:00.373  INFO  manager.MyListener - WebDriver found element by locator -->By.id: wheelsDrive
+21:11:00.628  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+21:11:00.650  INFO  manager.MyListener - WebDriver found element by locator -->By.id: doors
+21:11:00.896  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+21:11:00.917  INFO  manager.MyListener - WebDriver found element by locator -->By.id: seats
+21:11:01.164  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+21:11:01.186  INFO  manager.MyListener - WebDriver found element by locator -->By.id: class
+21:11:01.428  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+21:11:01.449  INFO  manager.MyListener - WebDriver found element by locator -->By.id: fuelConsumption
+21:11:01.702  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+21:11:01.725  INFO  manager.MyListener - WebDriver found element by locator -->By.id: serialNumber
+21:11:01.996  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+21:11:02.017  INFO  manager.MyListener - WebDriver found element by locator -->By.id: price
+21:11:02.259  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+21:11:02.278  INFO  manager.MyListener - WebDriver found element by locator -->By.id: distance
+21:11:02.527  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+21:11:02.544  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: input[placeholder='Type feature']
+21:11:02.788  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+21:11:02.808  INFO  manager.MyListener - WebDriver found element by locator -->By.id: about
+21:11:03.081  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+21:11:03.103  INFO  manager.MyListener - WebDriver found element by locator -->By.id: photos
+21:11:04.143  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+21:11:04.164  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+21:11:04.739  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+21:11:04.758  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+21:11:06.996  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+21:11:07.017  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.dialog-container
+21:11:07.046  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+21:11:07.059  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.dialog-container h1
+21:11:07.078  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+21:11:07.090  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[text()='Search cars']
+21:11:07.321  INFO  manager.HelperBase - Start method with name --> addNewCarSuccessFromCSV
+21:11:08.369  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+21:11:08.391  INFO  manager.MyListener - WebDriver found element by locator -->By.id: 1
+21:11:08.658  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+21:11:08.678  INFO  manager.MyListener - WebDriver found element by locator -->By.id: pickUpPlace
+21:11:08.985  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+21:11:11.235  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.pac-item
+21:11:12.960  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+21:11:12.981  INFO  manager.MyListener - WebDriver found element by locator -->By.id: make
+21:11:13.229  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+21:11:13.249  INFO  manager.MyListener - WebDriver found element by locator -->By.id: model
+21:11:13.491  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+21:11:13.511  INFO  manager.MyListener - WebDriver found element by locator -->By.id: year
+21:11:13.766  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+21:11:13.785  INFO  manager.MyListener - WebDriver found element by locator -->By.id: engine
+21:11:14.029  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+21:11:14.044  INFO  manager.MyListener - WebDriver found element by locator -->By.id: fuel
+21:11:14.291  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+21:11:14.314  INFO  manager.MyListener - WebDriver found element by locator -->By.id: gear
+21:11:14.565  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+21:11:14.582  INFO  manager.MyListener - WebDriver found element by locator -->By.id: wheelsDrive
+21:11:14.829  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+21:11:14.845  INFO  manager.MyListener - WebDriver found element by locator -->By.id: doors
+21:11:15.085  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+21:11:15.105  INFO  manager.MyListener - WebDriver found element by locator -->By.id: seats
+21:11:15.349  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+21:11:15.366  INFO  manager.MyListener - WebDriver found element by locator -->By.id: class
+21:11:15.601  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+21:11:15.618  INFO  manager.MyListener - WebDriver found element by locator -->By.id: fuelConsumption
+21:11:15.865  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+21:11:15.885  INFO  manager.MyListener - WebDriver found element by locator -->By.id: serialNumber
+21:11:16.154  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+21:11:16.169  INFO  manager.MyListener - WebDriver found element by locator -->By.id: price
+21:11:16.409  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+21:11:16.431  INFO  manager.MyListener - WebDriver found element by locator -->By.id: distance
+21:11:16.681  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+21:11:16.700  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: input[placeholder='Type feature']
+21:11:16.948  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+21:11:16.991  INFO  manager.MyListener - WebDriver found element by locator -->By.id: about
+21:11:17.260  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+21:11:17.274  INFO  manager.MyListener - WebDriver found element by locator -->By.id: photos
+21:11:18.298  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+21:11:18.316  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+21:11:18.891  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+21:11:18.903  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+21:11:21.140  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+21:11:21.158  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.dialog-container
+21:11:21.188  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+21:11:21.201  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: div.dialog-container h1
+21:11:21.224  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+21:11:31.246  INFO  manager.MyListener - The name of method with error is --> public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+21:11:31.252  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[text()='Search cars']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2888bf94-7b3c-4fda-ba22-b17e696bb309, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:52647, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7392, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2888bf94-7b3c-4fda-ba22-b17e696bb309
+21:11:31.265  INFO  manager.HelperBase - Start method with name --> successLogin
+21:11:31.282  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+21:11:31.294  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //a[text()=' Logout ']
+21:11:31.303  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+21:11:31.303  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementNotInteractableException: Element <a class="navigation-link ng-star-inserted" href="/logout?url=%2Flet-car-work"> could not be scrolled into view
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2888bf94-7b3c-4fda-ba22-b17e696bb309, clickElement {id=5824681a-d591-4c80-bf7b-00b8aa763f8a}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:52647, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7392, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (2888bf94-7b3c-4fda-ba22-b17e696bb309)] -> xpath: //a[text()=' Logout ']]
+Session ID: 2888bf94-7b3c-4fda-ba22-b17e696bb309
+21:11:31.333  INFO  manager.HelperBase - Start method with name --> registrationSuccess
+21:11:31.344  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+21:11:31.354  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //a[text()=' Logout ']
+21:11:31.362  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+21:11:31.362  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementNotInteractableException: Element <a class="navigation-link ng-star-inserted" href="/logout?url=%2Flet-car-work"> could not be scrolled into view
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2888bf94-7b3c-4fda-ba22-b17e696bb309, clickElement {id=5824681a-d591-4c80-bf7b-00b8aa763f8a}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:52647, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7392, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (2888bf94-7b3c-4fda-ba22-b17e696bb309)] -> xpath: //a[text()=' Logout ']]
+Session ID: 2888bf94-7b3c-4fda-ba22-b17e696bb309
+21:11:31.376  INFO  manager.HelperBase - Start method with name --> searchAnyPeriod
+21:11:31.377  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+21:11:41.393  INFO  manager.MyListener - The name of method with error is --> public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+21:11:41.394  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.NoSuchElementException: Unable to locate element: #city
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2888bf94-7b3c-4fda-ba22-b17e696bb309, findElement {using=id, value=city}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:52647, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7392, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2888bf94-7b3c-4fda-ba22-b17e696bb309
+21:11:41.397  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/search']
+21:11:41.414  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/search']
+21:11:41.424  INFO  manager.MyListener - The name of method with error is --> public abstract void org.openqa.selenium.WebElement.click()
+21:11:41.424  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.ElementNotInteractableException: Element <a id="0" class="navigation-link" href="/search"> could not be scrolled into view
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2888bf94-7b3c-4fda-ba22-b17e696bb309, clickElement {id=9be963c1-ab14-4703-aa09-76ed679bf462}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:52647, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7392, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (2888bf94-7b3c-4fda-ba22-b17e696bb309)] -> css selector: a[href='/search']]
+Session ID: 2888bf94-7b3c-4fda-ba22-b17e696bb309
