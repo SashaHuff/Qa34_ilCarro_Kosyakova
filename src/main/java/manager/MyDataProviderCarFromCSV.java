@@ -16,7 +16,7 @@ public class MyDataProviderCarFromCSV {
     @DataProvider
     public Iterator<Object[]> carCSV() throws IOException {
         List<Object []> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader(new File("C:\\Users\\alexa\\Documents\\GitHub\\Qa34_ilCarro_Kosyakova\\Qa34_ilCarro_Kosyakova\\src\\test\\resources\\car.csv")));
+        BufferedReader reader = new BufferedReader(new FileReader(new File("C:\\Users\\alexa\\Documents\\GitHub\\Qa34_ilCarro_Kosyakova\\src\\test\\resources\\car.csv")));
         String line = reader.readLine();
 
         while (line!=null){

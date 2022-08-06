@@ -37,7 +37,7 @@ public class HelperUser extends HelperBase {
     {
         type(By.xpath("//*[@id='email']"), user.getEmail());
         type(By.xpath("//*[@id='password']"), user.getPassword());
-        takeScreenshots("C:\\Users\\alexa\\Documents\\GitHub\\Qa34_ilCarro_Kosyakova\\Qa34_ilCarro_Kosyakova\\src\\test\\screenshots/screen - 1.png");
+        takeScreenshots("C:\\Users\\alexa\\Documents\\GitHub\\Qa34_ilCarro_Kosyakova\\src\\test\\screenshots/screen - 1.png");
 
 
     }

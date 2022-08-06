@@ -37,9 +37,9 @@ public class LoginTests extends TestBase
         Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in");
 
     }
-    @Test(groups = {"web"})
+    @Test
     public void successLogin2() {
-        User user = new User().setEmail("huff1@gmail.com").setPassword("Hhuff11234$");
+        User user = new User().setEmail("joe@gmail.com").setPassword("Dow1234+");
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLogInForm(user);
         app.getHelperUser().submit();
